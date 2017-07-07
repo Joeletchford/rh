@@ -17,6 +17,11 @@
   letter-spacing: .05em;
 }
 
+.hell {
+  font-family: helvetica;
+    letter-spacing: .01em;
+}
+
 .cf {
   clear: both;
 }
@@ -33,4 +38,20 @@
     padding-right: 0;
     margin-right: 0;
   }
+}
+
+
+.shift {
+  display: inline-block;
+  transform:skewX(160deg);
+  letter-spacing: .5;
+}
+
+.loose {
+  letter-spacing: 3px;
+  display: inline-block;
+}
+.tight {
+  letter-spacing: -5px;
+  display: inline-block;
 }
